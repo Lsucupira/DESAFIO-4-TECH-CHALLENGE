@@ -1,0 +1,25 @@
+Bancos Vetoriais Avaliados
+ChromaDB
+Fácil implementação
+Suporte a metadados
+Excelente para prototipação de soluções RAG
+
+LanceDB
+Maior integração com arquitetura Lakehouse
+Persistência otimizada
+Melhor escalabilidade para grandes volumes
+
+📊 Métricas Avaliadas
+Tempo Médio de Recuperação: velocidade da busca vetorial.
+Distância Vetorial Média: qualidade da similaridade entre pergunta e documentos recuperados.
+Top-K Retrieval: quantidade de documentos enviados ao LLM.
+Cache Hit Rate: percentual de consultas respondidas sem nova busca.
+Avaliação das Respostas: análise da aderência das respostas às evidências recuperadas.
+
+⚙️ Tecnologias
+
+Databricks • PySpark • Delta Lake • Sentence Transformers • ChromaDB • LanceDB • Meta Llama 3.1 • MLflow • Pandas
+
+🚀 Resultado
+
+Sistema RAG capaz de responder perguntas sobre a experiência dos clientes utilizando busca semântica, recuperação vetorial e geração de respostas fundamentadas em avaliações reais da Olist.
