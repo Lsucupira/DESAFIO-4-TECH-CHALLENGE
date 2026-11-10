@@ -1,0 +1,13 @@
+Modelos de Embeddings Avaliados
+all-MiniLM-L6-v2
+Modelo leve e rápido.
+Utilizado como baseline para comparação.
+paraphrase-multilingual-MiniLM-L12-v2
+Suporte multilíngue, incluindo português.
+Melhor qualidade semântica para comentários dos clientes.
+📊 Métricas Avaliadas
+Tempo Médio de Recuperação: velocidade das consultas vetoriais.
+Distância Vetorial Média: similaridade entre perguntas e documentos recuperados.
+Top-K Retrieval: quantidade de documentos enviados ao LLM.
+Cache Hit Rate: percentual de consultas respondidas pelo cache.
+Avaliação Qualitativa das Respostas: aderência das respostas às evidências recuperadas.
